@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: shaikmustafa/mycycle
+          image: shaikmustafa/cycle
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
